@@ -1,0 +1,38 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Generated backend data
+backend/chroma_db/
+
+# Node dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+build/
+
+# Logs and local files
+*.log
+*.local
+.DS_Store
+Thumbs.db
+.idea/
